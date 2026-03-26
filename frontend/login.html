@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Passport Seva+</title>
+    <meta name="description" content="Login to Passport Seva+ to continue your passport application.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="login-body">
+    <div class="login-wrapper">
+        <!-- Left Panel -->
+        <div class="login-left" id="loginLeft">
+            <div class="login-left-content">
+                <a href="index.html" class="login-logo" id="loginLogo">
+                    <span class="logo-icon">🛂</span> PassportSeva+
+                </a>
+                <h2 class="login-tagline">
+                    "Your passport<br>
+                    journey starts here."
+                </h2>
+                <p class="login-left-desc">
+                    Trusted by thousands of first-time applicants across India.
+                </p>
+                <div class="login-left-trust">
+                    <div class="trust-item-login">
+                        <span class="trust-check">✅</span> Official Government Service
+                    </div>
+                    <div class="trust-item-login">
+                        <span class="trust-check">🔒</span> 100% Secure & Encrypted
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Panel -->
+        <div class="login-right" id="loginRight">
+            <div class="login-form-wrap">
+                <h2 class="login-form-title">Welcome Back</h2>
+                <p class="login-form-subtitle">Login to continue your application</p>
+
+                <form class="login-form" id="loginForm">
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" id="email" class="form-input" placeholder="" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" id="password" class="form-input" placeholder="" required>
+                    </div>
+                    <div class="form-forgot">
+                        <a href="#" class="forgot-link" id="forgotPassword">Forgot Password?</a>
+                    </div>
+                    <button type="submit" class="login-submit-btn" id="loginBtn">Login</button>
+                    <p class="login-signup-text">
+                        Don't have an account? <a href="#" class="signup-link" id="signupLink">Sign up</a>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
